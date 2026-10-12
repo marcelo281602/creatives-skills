@@ -1,0 +1,85 @@
+# Blank character bible. Copy it, rename it after your character, and fill in every field before generating anything.
+# See examples/juno-bible.yaml for a completed one.
+#
+# Ground rules
+#   - The character is an adult (25 or older) and the age appears in every prompt.
+#   - The face is invented. Never name, describe or use a photo of a real person.
+#   - It passes the distinctness test: at least four of the five anchors differ from any character you know of.
+
+name:
+  slug: ""                 # lowercase, used for file and folder names, e.g. "theo-marsh"
+  display: ""              # how the character is written in captions
+  version: "v1"            # raise it whenever the look changes; keep old prompts tied to their version
+
+basics:
+  age: ""                  # a number; write "<age>-year-old <woman|man|person> (adult)" in prompts
+  pronouns: ""
+  summary: ""              # who they are and what they post about, in one sentence of 20 words or fewer
+  disclosure_line: "AI-generated character"   # used in bios and wherever a platform asks
+
+anchors:                   # what makes the character recognisable in a one-second thumbnail
+  hair: ""                 # shape, length, colour, how it is usually worn
+  signature_accessory: ""
+  second_accessory: ""     # or a prop that is always nearby
+  distinguishing_mark: ""  # e.g. a beauty mark, scar, freckles — or "none"
+  face: ""                 # skin, eyes, brows, lips, resting expression
+
+prompt_blocks:
+  long: ""                 # 60–90 words, starting with "[<NAME> ID v1]"; paste into every prompt
+  short: ""                # 35 words or fewer, for tight prompt fields
+  negative: ""             # for models that accept negatives; always include "teenager, childlike face"
+
+looks:                     # four to seven named outfits; one per post
+  - name: ""
+    wording: ""            # ready to paste after the identity block
+    fits: ""               # which settings or formats it suits
+
+settings:                  # five to eight recurring places, each ready to paste with its light and props
+  - name: ""
+    wording: ""
+
+props: ""                  # recurring objects or companions; describe them the same way every time
+
+palette:
+  dark: ""                 # hex
+  light: ""                # hex
+  accent: ""               # hex — one accent, used everywhere
+  support: ""              # hex
+  grade: ""                # how finished images should look, e.g. "warm, fine grain, lifted shadows"
+
+voice:
+  dials:                   # set each to low / medium / high
+    warmth: ""
+    humour: ""
+    energy: ""
+    formality: ""
+    hype: ""
+    emoji: ""
+  rules: []                # six to ten short rules
+  sample_captions: []      # ten lines across your content pillars
+  replies:
+    praise: ""
+    asked_if_ai: ""
+    money_question: ""
+    rude_comment: ""
+  spoken_voice: ""         # for voice design; describe qualities, never "sounds like <a real person>"
+
+framing:
+  selfie_video: ""
+  portrait: ""
+  banner: ""
+
+never:                     # hard limits; keep these and add your own
+  - "be shown or described as under 18"
+  - "explicit or sexualised content"
+  - "look like, name or imitate a real person"
+  - "claim to be human"
+  - "financial advice, price targets or promised returns"
+  - "post without an AI label where a platform requires one"
+
+reference_pack:            # fill in once the images are approved (see character-consistency)
+  folder: ""
+  files: []
+  notes: ""                # model, version and seed for each file
+  approved_by: ""
+  approved_on: ""
