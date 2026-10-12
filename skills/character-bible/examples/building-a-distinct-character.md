@@ -5,9 +5,9 @@ copies `templates/character-bible-template.yaml` and fills it in this order.
 
 ## 1. Run the distinctness test before anything else
 
-Compare against every character the operator already knows of — here, Juno from this skill.
+Compare against every character the operator already knows of — here, Eria from this skill.
 
-| Anchor | Juno | Theo | Changed? |
+| Anchor | Eria | Theo | Changed? |
 |---|---|---|---|
 | Hair | copper-red shoulder-length curls, half-up | close-cropped salt-and-pepper hair, short neat beard | yes |
 | Signature accessory | round brass wire glasses | a flour-dusted navy baker's cap | yes |

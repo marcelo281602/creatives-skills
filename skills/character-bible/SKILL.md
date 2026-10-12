@@ -1,6 +1,6 @@
 ---
 name: character-bible
-description: "Builds and maintains a character bible for an AI creator — the five silhouette anchors that make the character recognisable in a thumbnail, a paste-in identity block for image and video prompts, a negative block, named wardrobe looks, recurring settings, a palette, a voice with sample captions, and a hard \"never\" list. Uses Juno, the example creator that appears throughout these skills, as a fully worked bible, and includes a blank template and a distinctness test for building your own. Use when writing any prompt, caption or script that features a recurring character, when checking a generation for off-model drift, or when starting a new character from scratch."
+description: "Builds and maintains a character bible for an AI creator — the five silhouette anchors that make the character recognisable in a thumbnail, a paste-in identity block for image and video prompts, a negative block, named wardrobe looks, recurring settings, a palette, a voice with sample captions, and a hard \"never\" list. Uses Eria, the example creator that appears throughout these skills, as a fully worked bible, and includes a blank template and a distinctness test for building your own. Use when writing any prompt, caption or script that features a recurring character, when checking a generation for off-model drift, or when starting a new character from scratch."
 license: MIT
 metadata:
   title: "Character bible"
@@ -16,10 +16,10 @@ metadata:
 # Character bible
 
 A recurring AI character only works if every image, clip and caption describes the same person. The character bible is
-the one document every prompt and script draws from. This skill shows the whole bible for **Juno**, the example creator
+the one document every prompt and script draws from. This skill shows the whole bible for **Eria**, the example creator
 used across these skills, then walks you through writing your own.
 
-Juno is fictional and exists only as a teaching example. Don't publish content as Juno; build your own character with
+Eria is fictional and exists only as a teaching example. Don't publish content as Eria; build your own character with
 the template in step 8.
 
 ## When to use this
@@ -43,7 +43,7 @@ the template in step 8.
 ### 1. Fix the five silhouette anchors
 
 Anchors are what a viewer recognises in a one-second thumbnail. Every generation keeps all five unless a shot hides one
-on purpose (a back view hides the face, a close-up crops the camera strap). Juno's:
+on purpose (a back view hides the face, a close-up crops the camera strap). Eria's:
 
 1. **Hair:** shoulder-length copper-red loose curls, usually half-up in a tortoiseshell claw clip, a few curls loose at
    the temples.
@@ -61,7 +61,7 @@ framing, and an explicit adult age is the cheapest fix (see [../character-consis
 The identity block is versioned. When the look changes, bump the version and retire the old block.
 
 ```text
-[JUNO ID v1] Juno, a 31-year-old woman (adult) with shoulder-length copper-red loose curls worn half-up in a
+[ERIA ID v1] Eria, a 31-year-old woman (adult) with shoulder-length copper-red loose curls worn half-up in a
 tortoiseshell claw clip, a few curls loose at the temples; round thin brass wire-rim glasses; a small vintage half-frame
 film camera on a woven olive strap; one small beauty mark under her left eye; warm medium-brown skin with natural
 texture and visible pores; hazel-amber eyes; soft arched brows; matte terracotta lips; faint smile lines; a curious
@@ -71,7 +71,7 @@ half-smile.
 Short form, for prompt fields under about 500 characters:
 
 ```text
-Juno, 31-year-old woman, copper-red shoulder-length curls half-up in a tortoiseshell claw clip, round brass wire glasses,
+Eria, 31-year-old woman, copper-red shoulder-length curls half-up in a tortoiseshell claw clip, round brass wire glasses,
 vintage film camera on an olive strap, beauty mark under left eye, warm brown skin, hazel eyes, curious half-smile
 ```
 
@@ -124,7 +124,7 @@ shadows; avoid a heavy orange-and-teal blockbuster look.
 
 ### 6. Write in the character's voice
 
-Juno is curious, warm and observant, with dry humour. She notices small things — light on a wall, a stranger's
+Eria is curious, warm and observant, with dry humour. She notices small things — light on a wall, a stranger's
 umbrella — and writes in short sentence-case lines. She talks about craft, not about herself as a product. She never
 names the model that makes her, never claims to be human and never gives financial advice. More in
 [references/voice-and-personality.md](references/voice-and-personality.md).
@@ -163,8 +163,8 @@ Write the hard limits before the first image, and keep them next to the identity
    lock it.
 
 A second worked example, built from a blank template, is in
-[examples/building-a-distinct-character.md](examples/building-a-distinct-character.md). Juno's full bible as YAML is in
-[examples/juno-bible.yaml](examples/juno-bible.yaml).
+[examples/building-a-distinct-character.md](examples/building-a-distinct-character.md). Eria's full bible as YAML is in
+[examples/eria-bible.yaml](examples/eria-bible.yaml).
 
 ### 9. Store the style with your generator
 
@@ -176,9 +176,9 @@ has no saved styles, keep the block in your prompt library (see
 ## Templates
 
 - [templates/character-bible-template.yaml](templates/character-bible-template.yaml) — blank bible for any character.
-- [templates/identity-blocks.md](templates/identity-blocks.md) — Juno's identity block in long, short, Midjourney and
+- [templates/identity-blocks.md](templates/identity-blocks.md) — Eria's identity block in long, short, Midjourney and
   JSON forms, plus per-look wardrobe strings.
-- [examples/juno-bible.yaml](examples/juno-bible.yaml) — this bible as machine-readable YAML.
+- [examples/eria-bible.yaml](examples/eria-bible.yaml) — this bible as machine-readable YAML.
 
 Fill-in caption line:
 

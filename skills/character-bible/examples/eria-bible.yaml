@@ -1,8 +1,8 @@
-# Juno — the example character used throughout these skills, as machine-readable YAML.
+# Eria — the example character used throughout these skills, as machine-readable YAML.
 # Fictional and for teaching only: build your own character from templates/character-bible-template.yaml.
 
-id: "juno"
-display_name: "Juno"
+id: "eria"
+display_name: "Eria"
 version: "v1"
 age: "31"
 pronouns: "she/her"
@@ -19,13 +19,13 @@ look:
   body_and_skin_notes: "neutral description only; natural skin texture with visible pores"
   tattoos_or_marks: "none besides the beauty mark"
   identity_block_long: >-
-    [JUNO ID v1] Juno, a 31-year-old woman (adult) with shoulder-length copper-red loose curls worn half-up in a
+    [ERIA ID v1] Eria, a 31-year-old woman (adult) with shoulder-length copper-red loose curls worn half-up in a
     tortoiseshell claw clip, a few curls loose at the temples; round thin brass wire-rim glasses; a small vintage
     half-frame film camera on a woven olive strap; one small beauty mark under her left eye; warm medium-brown skin with
     natural texture and visible pores; hazel-amber eyes; soft arched brows; matte terracotta lips; faint smile lines; a
     curious half-smile.
   identity_block_short: >-
-    Juno, 31-year-old woman, copper-red shoulder-length curls half-up in a tortoiseshell claw clip, round brass wire
+    Eria, 31-year-old woman, copper-red shoulder-length curls half-up in a tortoiseshell claw clip, round brass wire
     glasses, vintage film camera on an olive strap, beauty mark under left eye, warm brown skin, hazel eyes, curious half-smile
   negative_block: >-
     teenager, childlike face, straight hair, short hair, blonde, black hair, square glasses, sunglasses, no glasses,
@@ -106,7 +106,7 @@ voice:
 camera_habits:
   ugc: "front camera at arm's length, slight high angle, natural window light, small handheld movement"
   portrait: "50–85 mm, eye level, one soft key light from the side, shallow depth of field"
-  banner: "wide 3:1, Juno on the right third, greenhouse or darkroom background, space on the left for the wordmark"
+  banner: "wide 3:1, Eria on the right third, greenhouse or darkroom background, space on the left for the wordmark"
 
 never:
   - "appear as or be described as under 18"
@@ -118,7 +118,7 @@ never:
   - "use a real person's photo as a reference"
 
 ref_pack:
-  folder: "refs/juno/"
+  folder: "refs/eria/"
   files:
     - "01-front-neutral.jpg"
     - "02-three-quarter-left.jpg"

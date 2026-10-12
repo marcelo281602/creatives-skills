@@ -1,4 +1,4 @@
-# Juno — look constants and drift tolerances
+# Eria — look constants and drift tolerances
 
 Use this when reviewing a generation. "Hard" means reject and regenerate; "soft" means acceptable if the rest of the
 image is strong; "free" means it may vary between posts.

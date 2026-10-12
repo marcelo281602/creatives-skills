@@ -1,11 +1,11 @@
-# Juno — identity blocks in every format
+# Eria — identity blocks in every format
 
 Paste the format your model expects. All of them describe the same person; only the packaging changes.
 
 ## Long (most models)
 
 ```text
-[JUNO ID v1] Juno, a 31-year-old woman (adult) with shoulder-length copper-red loose curls worn half-up in a
+[ERIA ID v1] Eria, a 31-year-old woman (adult) with shoulder-length copper-red loose curls worn half-up in a
 tortoiseshell claw clip, a few curls loose at the temples; round thin brass wire-rim glasses; a small vintage half-frame
 film camera on a woven olive strap; one small beauty mark under her left eye; warm medium-brown skin with natural
 texture and visible pores; hazel-amber eyes; soft arched brows; matte terracotta lips; faint smile lines; a curious
@@ -15,7 +15,7 @@ half-smile.
 ## Short (fields under about 500 characters)
 
 ```text
-Juno, 31-year-old woman, copper-red shoulder-length curls half-up in a tortoiseshell claw clip, round brass wire glasses,
+Eria, 31-year-old woman, copper-red shoulder-length curls half-up in a tortoiseshell claw clip, round brass wire glasses,
 vintage film camera on an olive strap, beauty mark under left eye, warm brown skin, hazel eyes, curious half-smile
 ```
 
@@ -33,7 +33,7 @@ straight hair, sunglasses, heavy makeup, text, logo
 ```json
 {
   "subject": {
-    "id": "juno-v1",
+    "id": "eria-v1",
     "age": "31-year-old woman (adult)",
     "hair": "shoulder-length copper-red loose curls, half-up in a tortoiseshell claw clip, a few curls loose at the temples",
     "accessories": ["round thin brass wire-rim glasses", "small vintage half-frame film camera on a woven olive strap"],

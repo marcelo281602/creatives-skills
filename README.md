@@ -60,8 +60,8 @@ which unzips into one folder per skill, or clone this repository.
 Skills are instructions your agent will follow. None of them asks you to paste keys into a chat; keep your keys in your
 own environment. Anything that publishes or spends money should wait for your approval.
 
-The example character, Juno, is fictional and exists only to teach. Build your own character with the Character bible
-template rather than publishing as Juno.
+The example character, Eria, is fictional and exists only to teach. Build your own character with the Character bible
+template rather than publishing as Eria.
 
 ## License
 
