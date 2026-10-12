@@ -8,9 +8,14 @@ New skills are added in batches. Each batch is published as a release, with one 
 
 ## Skills
 
-| Skill | Category | Level | Status |
+Each skill downloads on its own — you never need the whole repository for one skill.
+
+| Skill | Category | Level | Download |
 |---|---|---|---|
-| [Character bible](skills/character-bible/SKILL.md) | Create | Beginner | Ready |
+| [Character bible](skills/character-bible/SKILL.md) | Create | Beginner | [character-bible.zip](https://github.com/marcelo281602/creatives-skills/releases/latest/download/character-bible.zip) |
+
+Want everything? [creatives-skills-all.zip](https://github.com/marcelo281602/creatives-skills/releases/latest/download/creatives-skills-all.zip)
+unzips into one folder per skill.
 
 More Create, Grow and Build skills are on the way.
 
